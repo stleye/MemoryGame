@@ -27,64 +27,6 @@ struct ContentView: View {
         }
     }
 
-//    var remove: some View {
-//        Button(action: {
-//            if emojiCount > 1 {
-//                emojiCount -= 1
-//            }
-//        }, label: { Image(systemName: "minus.circle") })
-//    }
-//
-//    var add: some View {
-//        Button(action: {
-//            if emojiCount < emojis[theme].count {
-//                emojiCount += 1
-//            }
-//        }, label: { Image(systemName: "plus.circle") })
-//    }
-//
-//    var flags: some View {
-//        Button(action: {
-//            theme = 0
-//            emojis[theme].shuffle()
-//            emojiCount = emojis[theme].count
-//        }, label: {
-//            VStack {
-//                Image(systemName: "flag")
-//                Text("Flags")
-//                    .font(.title3)
-//            }
-//        })
-//    }
-//
-//    var vehicles: some View {
-//        Button(action: {
-//            theme = 1
-//            emojis[theme].shuffle()
-//            emojiCount = emojis[theme].count
-//        }, label: {
-//            VStack {
-//                Image(systemName: "car")
-//                Text("Vehicles")
-//                    .font(.title3)
-//            }
-//        })
-//    }
-//
-//    var animals: some View {
-//        Button(action: {
-//            theme = 2
-//            emojis[theme].shuffle()
-//            emojiCount = emojis[theme].count
-//        }, label: {
-//            VStack {
-//                Image(systemName: "tortoise")
-//                Text("Animals")
-//                    .font(.title3)
-//            }
-//        })
-//    }
-
 }
 
 struct CardView: View {
