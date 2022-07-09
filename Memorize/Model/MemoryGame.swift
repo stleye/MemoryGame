@@ -60,4 +60,8 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
         }
     }
 
+    mutating func shuffle() {
+        self.cards.shuffle()
+    }
+
 }
