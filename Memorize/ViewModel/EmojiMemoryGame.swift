@@ -56,7 +56,7 @@ class EmojiMemoryGame: ObservableObject {
         model.shuffle()
     }
 
-    func newGame() {
+    func restart() {
         Self.theme = EmojiThemes.themes.randomElement()!
         Self.theme.emojis.shuffle()
         self.model = MemoryGame<String>(numberOfPairsOfCards: Self.theme.numberOfPairsOfCards,
